@@ -4,7 +4,7 @@ import { FindPlan } from "./FindPlan";
 const Navigation = () => {
   return (
     <>
-      <nav className="fixed top-8 left-1/2 transform -translate-x-1/2 bg-transparent text-white rounded-lg px-6 py-3 my-3 flex items-center justify-between w-max lg:w-11/12 max-w-4xl z-50 border border-gray-50/10 backdrop-blur-sm">
+      <nav className="fixed top-8 left-1/2  transform -translate-x-1/2 bg-transparent text-white rounded-lg px-6 py-3 my-3 flex items-center justify-between w-max  lg:w-11/12 max-w-4xl z-50 border border-gray-50/10 backdrop-blur-sm">
         <div className="flex items-center gap-x-2 md:justify-start justify-center w-full md:w-auto">
           <div className="w-10 h-10 rounded-full">
             <img

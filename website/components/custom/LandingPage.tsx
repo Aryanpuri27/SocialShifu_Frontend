@@ -14,11 +14,11 @@ export default function LandingPage() {
         <center>
           <HeroVideoShowcase />
         </center>
-        <div className="mt-20">
+        <div className="mt-5">
           <VideoWork />
         </div>
       </div>
-      <MarqueeSlider/>
+      <MarqueeSlider />
       <FooterBranding />
     </div>
   );

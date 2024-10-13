@@ -28,7 +28,7 @@ export default function VideoWork() {
   );
 
   return (
-    <div className="flex justify-center items-center h-screen bg-transparent">
+    <div className="flex justify-center items-center md:h-screen py-10 bg-transparent">
       <Marquee
         className="bg-transparent flex items-center"
         pauseOnHover

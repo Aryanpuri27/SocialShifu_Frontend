@@ -8,15 +8,16 @@ export function Hero() {
   const [color, setColor] = useState("#ffffff");
 
   useEffect(() => {
-    setColor("#ffffff"); 
+    setColor("#ffffff");
   }, []);
 
   return (
-    <div className="relative flex h-[50vh] mt-20 lg:mt-0 lg:h-[100vh] pt-10 w-full flex-col items-center justify-center overflow-hidden rounded-lg  bg-black md:shadow-xl lg:m-0">
+    <div className="relative flex h-[50vh] mt-20 lg:mt-0 lg:h-[100vh] pt-10 px-4 w-full flex-col items-center justify-center overflow-hidden rounded-lg  bg-black md:shadow-xl lg:m-0">
       <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-white to-gray-300/80 bg-clip-text text-center text-4xl md:text-6xl lg:text-7xl font-semibold leading-none text-transparent max-w-7xl py-5">
-        Social Shifu is the new way <br /> to generate AI videos.
+        Social Shifu is the new way
+        <br /> to generate AI videos.
       </span>
-      <h2 className="text-gray-400 max-w-sm text-sm mx-auto text-center">
+      <h2 className="text-gray-400 max-w-md text-sm mx-auto text-center">
         SocialSifu Does all the video automation you need, from generating to
         posting. Everything by us, just relax.
       </h2>
